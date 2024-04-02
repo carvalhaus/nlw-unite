@@ -1,0 +1,8 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "South Summit",
+    "details": "Um evento para quem inspira inovacao",
+    "maximumAttendees": 100
+}
