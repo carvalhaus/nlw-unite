@@ -2,7 +2,24 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "South Summit",
-    "details": "Um evento para quem inspira inovacao",
-    "maximumAttendees": 100
+    "title": "Novo Evento",
+    "details": "O maior evento tech do Brasil!",
+    "maximumAttendees": 1
 }
+
+###
+
+POST http://localhost:3333/events/96ccf49b-70e7-4e15-9346-02130cc9bae3/attendees
+Content-Type: application/json
+
+{
+    "name": "Johan Peter",
+    "email": "johan.peter2@user.com"
+}
+
+###
+GET http://localhost:3333/events/96ccf49b-70e7-4e15-9346-02130cc9bae3
+
+###
+
+GET http://localhost:3333/attendees/1/badge
