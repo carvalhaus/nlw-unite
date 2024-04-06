@@ -23,3 +23,9 @@ GET http://localhost:3333/events/96ccf49b-70e7-4e15-9346-02130cc9bae3
 ###
 
 GET http://localhost:3333/attendees/1/badge
+
+###
+GET http://localhost:3333/attendees/2/check-in
+
+###
+GET http://localhost:3333/events/96ccf49b-70e7-4e15-9346-02130cc9bae3/attendees?query=johan
